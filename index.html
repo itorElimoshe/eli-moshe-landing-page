@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>אלי משה איתור נזילות - דף נחיתה</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">אלי משה</div>
+    <nav>
+      <a href="#hero">דף הבית</a>
+      <a href="#business-info">אודות</a>
+      <a href="#equipment-section">ציוד</a>
+      <a href="#contact-section">צור קשר</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1>ברוכים הבאים</h1>
+      <p>איתור נזילות מקצועי עם אלי משה</p>
+      <button class="cta-btn" onclick="document.getElementById('contact-section').scrollIntoView({behavior: 'smooth'});">
+        השאירו פרטים עכשיו
+      </button>
+    </div>
+  </section>
+
+  <!-- WAVE -->
+  <div class="wave">
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none">
+      <path d="M0,50 C150,200 350,0 500,100 L500,0 L0,0 Z" style="fill:#fff;"></path>
+    </svg>
+  </div>
+
+  <!-- BUSINESS INFO SECTION -->
+  <section class="business-info" id="business-info">
+    <h2 class="section-title">אודות</h2>
+    <div class="info-container">
+      <div class="info-text">
+        <h3>למה לבחור בנו?</h3>
+        <p>
+          אנו מתמחים באיתור נזילות מים בשלל טכנולוגיות מתקדמות...
+        </p>
+      </div>
+      <div class="info-images">
+        <img src="https://via.placeholder.com/500x300.png?text=תמונה+ראשונה" alt="תמונה">
+        <img src="https://via.placeholder.com/500x300.png?text=תמונה+שנייה" alt="תמונה נוספת">
+      </div>
+    </div>
+  </section>
+
+  <!-- EQUIPMENT SECTION -->
+  <section class="equipment-section" id="equipment-section">
+    <h2 class="section-title">הציוד שלנו</h2>
+    <div class="equipment-grid">
+      <div class="equipment-item">
+        <img src="https://via.placeholder.com/500x300.png?text=מצלמה+תרמית" alt="מצלמה תרמית">
+        <h4>מצלמה תרמית</h4>
+        <p>מצלמה תרמית לאיתור נזילות בצורה מדויקת...</p>
+      </div>
+      <div class="equipment-item">
+        <img src="https://via.placeholder.com/500x300.png?text=מערכת+גז" alt="מערכת גז">
+        <h4>מערכת גז לאיתור נזילות</h4>
+        <p>המערכת עושה שימוש בגז ידידותי לזיהוי מוקדים נסתרים...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-section" id="contact-section">
+    <h2 class="section-title">צור קשר</h2>
+    <form class="contact-form" action="#" method="post">
+      <input type="text" name="name" placeholder="שם מלא" required>
+      <input type="email" name="email" placeholder="אימייל" required>
+      <textarea name="message" placeholder="הודעה" rows="5" required></textarea>
+      <button type="submit">שליחה</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© כל הזכויות שמורות לאלי משה איתור נזילות</p>
+  </footer>
+
+</body>
+</html>
